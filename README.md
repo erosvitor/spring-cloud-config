@@ -1,7 +1,7 @@
 # SpringCloudConfig
 
 ## Description
-The **SpringCloudConfig** is a project that show how to implement a configuration server using the Spring Cloud Config Server.
+Project that show how to implement a configuration server using the Spring Cloud Config Server.
 
 ## Technologies
 The project use the following technologies:
