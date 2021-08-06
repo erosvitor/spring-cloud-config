@@ -8,7 +8,7 @@
   <parent>
     <groupId>com.ctseducare</groupId>
     <artifactId>spring-cloud-config</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
   </parent>
   
   <dependencies>
@@ -16,6 +16,7 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-config-server</artifactId>
+      <version>3.0.4</version>  <!-- may/2021 -->
     </dependency>
   </dependencies>
   

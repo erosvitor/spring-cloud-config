@@ -10,7 +10,7 @@ The project use the following technologies:
 * Apache Maven
 * Project aggregation
 * Spring Boot
-* Spring Cloud Config Server
+* Spring Cloud Config
 * IDE Eclipse
 
 ## Git repository
@@ -51,6 +51,15 @@ git commit -m "Setting the local repository"
 http://localhost:8890/serviceone
 ```
 
+## References
+[Spring Boot](https://spring.io/projects/spring-boot)  
+[Spring Cloud](https://spring.io/projects/spring-cloud)  
+[Spring Cloud Config](https://spring.io/projects/spring-cloud-config)
+
 ## Release History
+* 1.0.1 (2021-08-03)
+    * Spring Boot updated to 2.5.3
+    * Spring Cloud updated to 2020.0.3
+    * Section 'references' added
 * 1.0.0 (2021-05-15)
     * First version
