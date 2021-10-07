@@ -1,19 +1,28 @@
-# SpringCloudConfig
-
-## Description
-Project that show how to implement a configuration server using the Spring Cloud Config Server.
+## About
+The project shows how to implement a configuration server using the Spring Cloud Config Server.
 
 ## Technologies
-The project use the following technologies:
+The following tools were used in this project:
 
-* Java 11
-* Apache Maven
-* Project aggregation
-* Spring Boot
-* Spring Cloud Config
-* IDE Eclipse
+* [Java Oracle](https://www.oracle.com/java/)
+* [Apache Maven](https://maven.apache.org/)
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Spring Cloud Config](https://spring.io/projects/spring-cloud-config)
+* [IDE Eclipse](https://www.eclipse.org/)
 
-## Git repository
+## Requirements
+Before starting this project you need to have Git, JDK Oracle, Maven and Eclipse IDE installed.
+
+## Starting the project
+
+### Clonning the project
+```
+$ git clone https://github.com/erosvitor/spring-cloud-config.git
+
+$ cd spring-cloud-config
+```
+
+### Creating Git repository
 The Spring Cloud Config Server store the configurations in a remote or local Git repository. This project use a local Git repository. 
 
 **Step 1:** Create a folder for local Git repository
@@ -37,11 +46,10 @@ git config user.email "ctseducare@ctseducare.com"
 git config user.name "CTSEducare"
 git add .
 git commit -m "Setting the local repository"
-
 ```
 
-## Testing the project
-**Step 1:** Start the microservices
+### Testing the project
+**Step 1:** Start the microservices using Eclipse IDE or by Maven command line
 * ConfigServer
 * ServiceOne
 
@@ -51,10 +59,8 @@ git commit -m "Setting the local repository"
 http://localhost:8890/serviceone
 ```
 
-## References
-[Spring Boot](https://spring.io/projects/spring-boot)  
-[Spring Cloud](https://spring.io/projects/spring-cloud)  
-[Spring Cloud Config](https://spring.io/projects/spring-cloud-config)
+## License
+This project is under license from MIT. For more details, see the LICENSE file.
 
 ## Release History
 * 1.0.1 (2021-08-03)
